@@ -1,5 +1,7 @@
 package de.hawkiel.eki.cant_stop.ai
 
+const val TOKEN_SCARY = "XXXXXXXX";
+
 fun main() {
-    // Hier den Code
+    Scary(TOKEN_SCARY)
 }

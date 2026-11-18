@@ -1,5 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.2.20"
+    kotlin("jvm") version "2.4.10"
+    kotlin("plugin.serialization") version "2.4.21"
 }
 
 group = "de.hawkiel.ki.cant_stop.ai"
@@ -10,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.13.0")
 }
 
 tasks.test {
